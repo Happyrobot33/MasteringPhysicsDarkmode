@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name           Mastering Physics
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A style for the physics homework website
+@author         Happyrobot33
+==/UserStyle== */
+@-moz-document domain("openvellum.ecollege.com"), domain("session.masteringphysics.com"), domain("mediaplayer.pearsoncmg.com") {
+    html,
+    body,
+    tbody,
+    thead,
+    th,
+    tr,
+    td,
+    blockquote,
+    li,
+    ul,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    font,
+    strong,
+    p,
+    form,
+    footer,
+    #top-header,
+    .fa-bars, 
+    #menu-list-holder, .col-md-9, #app, .assignment-status, .assignment-meta-info, .section, .head, .work, .bd, .autolabel {
+        color: white !important;
+        background: black !important;
+    }
+    
+    .ov-left-nav #menu-list-holder .active, .responses, .followup, .introBox, .correct, .eqEditor.focused .eqDocument .current{
+        background: #2f2f2f !important;
+        color: white !important;
+    }
+    
+    #mainBodyContainer, .container-fluid {
+        color: black !important;
+        background-color: black !important;
+    }
+    
+    a.ng-binding {
+        color: white !important;
+        background: transparent !important;
+    }
+    
+    .ov-top-menu h1:focus, .ov-top-menu h1:hover {
+        color: white !important;
+    }
+    
+    #footer {
+        visibility: hidden;
+        height: 0;
+    }
+    
+    #standalone, .pvp, #SizteenNine {
+        height: 100% !important;
+        width: auto !important;
+        margin: 0;
+        position: unset;
+    }
+}
